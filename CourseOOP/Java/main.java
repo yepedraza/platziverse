@@ -9,14 +9,16 @@ class Main{
         car.driver = "Yery Pedraza";
         car.passenger = 4;
 
-        System.out.println("Car License: " + car.license);
+        // System.out.println("Car License: " + car.license); 
+        car.printDataCar(); //Using print method
 
         car car2 = new car();
         car2.license = "QWE567";
         car2.driver = "Agusto Agudelo";
         car2.passenger = 3;
 
-        System.out.println("Car License: " + car2.license);
+        //System.out.println("Car License: " + car2.license);
+        car2.printDataCar(); //Using print method
     }
 
 }
