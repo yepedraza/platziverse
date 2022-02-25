@@ -4,17 +4,13 @@ class Main{
     public static void main(String[] args) {
         System.out.println("Hola mundo");
 
-        car car = new car();
-        car.license = "AMQ123";
-        car.driver = "Yery Pedraza";
+        car car = new car("AMQ123", new account("Yery Pedraza", "AMQ123"));
         car.passenger = 4;
 
         // System.out.println("Car License: " + car.license); 
         car.printDataCar(); //Using print method
 
-        car car2 = new car();
-        car2.license = "QWE567";
-        car2.driver = "Agusto Agudelo";
+        car car2 = new car("QWE567", new account("Agusto Agudelo", "QWE567"));
         car2.passenger = 3;
 
         //System.out.println("Car License: " + car2.license);
