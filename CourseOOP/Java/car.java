@@ -3,10 +3,15 @@ package Java;
 public class car {
     Integer id;
     String license;
-    String driver;
+    account driver;
     Integer passenger;
 
+    public car(String license, account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
     void printDataCar(){
-        System.out.println("Car License: " + license + " Car Driver: " + driver);
+        System.out.println("Car License: " + license + " Name Driver: " + driver.name);
     }
 }
