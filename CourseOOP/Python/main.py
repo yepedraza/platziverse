@@ -1,3 +1,4 @@
+from driver import Driver
 from UberBlack import UberBlack
 from UberX import UberX
 from normalService import NormalService
@@ -11,10 +12,10 @@ if __name__ == "__main__":
     # print(vars(car))
     # print(vars(car.driver))
 
-    uberX = UberX("TYU159", Account("Agusto Pedraza", "AW123"), "Subaru", "Impreza")
+    uberX = UberX("TYU159", Driver("Agusto Pedraza", "AW123"), "Subaru", "Impreza")
     print(vars(uberX))
 
-    uberBlack = UberBlack("GBN761", Account("Yery Pedraza", "GH894"), "Audi_A6", "Leather")
+    uberBlack = UberBlack("GBN761", Driver("Yery Pedraza", "GH894"), "Audi_A6", "Leather")
     print(vars(uberBlack))
 
     # car2 = Car()
