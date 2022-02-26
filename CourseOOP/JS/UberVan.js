@@ -1,7 +1,5 @@
-class UberVan extends Car{
+class UberVan extends EspecialService{
     constructor(license, driver, typeCarAccepted, seatsMaterial){
-        super(license, driver)
-        this.typeCarAccepted = typeCarAccepted;
-        this.seatsMaterial = seatsMaterial;
+        super(license, driver, typeCarAccepted, seatsMaterial)
     }
 }
