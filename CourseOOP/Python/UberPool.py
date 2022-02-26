@@ -1,10 +1,5 @@
-from car import Car
+from normalService import NormalService
 
-class UberPool(Car):
-    brand = str
-    model = str
-
+class UberPool(NormalService):
     def __init__(self, license, driver, brand, model):
-        super().__init__(license, driver)
-        self.brand = brand
-        self.model = model
+        super().__init__(license, driver, brand, model)
