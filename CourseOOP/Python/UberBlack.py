@@ -1,10 +1,5 @@
-from car import Car
+from especialService import EspecialService
 
-class UberBlack(Car):
-    typeCarAccepted = []
-    seatsMaterial = []
-
+class UberBlack(EspecialService):
     def __init__(self, license, driver, typeCarAccepted, seatsMaterial):
-        super().__init__(license, driver)
-        self.typeCarAccepted = typeCarAccepted
-        self.seatsMaterial = seatsMaterial
+        super().__init__(license, driver, typeCarAccepted, seatsMaterial)
