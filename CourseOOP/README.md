@@ -11,4 +11,4 @@ From this analysis, the extraction and definition of the objects, classes and me
 <br>
 
 ## Class Diagram
-<img align="left" alt="classd" src="https://github.com/yepedraza/platziverse/blob/CoursePOO/CourseOOP/Uber_project.jpg" />
+<img align="left" alt="classd" src="https://github.com/yepedraza/platziverse/blob/master/CourseOOP/Uber_project.jpg" />
