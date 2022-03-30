@@ -14,5 +14,6 @@
 ### Data filtering w/ Comprehensions & High order functions
 With what I learned in the course, I made, from a dataset, a data [filtering program](https://github.com/yepedraza/platziverse/blob/master/IntermediatePy/filtering_data.py) 
 which allows filtering people by their; programming language, its organization, age, among other aspects.
+
 ---
 *Made by @yepedraza*
